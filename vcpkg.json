@@ -1,0 +1,10 @@
+{
+  "name": "cmakevcpkgsolidity",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "boost",
+    "jsoncpp",
+    "range-v3",
+    "fmt"
+  ]
+}
