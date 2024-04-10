@@ -1,10 +1,5 @@
 {
   "name": "cmakevcpkgsolidity",
   "version-string": "0.0.1",
-  "dependencies": [
-    "boost",
-    "jsoncpp",
-    "range-v3",
-    "fmt"
-  ]
+  "dependencies": ["boost", "nlohmann-json", "range-v3", "fmt"]
 }
