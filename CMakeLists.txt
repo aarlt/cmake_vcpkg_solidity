@@ -27,7 +27,7 @@ set(STRICT_JSONCPP_VERSION OFF CACHE INTERNAL "")
 include(FetchContent)
 FetchContent_Declare(solidity_project
   GIT_REPOSITORY    git@github.com:ethereum/solidity.git
-  GIT_TAG           improve_solidity_embeddability
+  GIT_TAG           develop
 )
 FetchContent_MakeAvailable(solidity_project)
 
