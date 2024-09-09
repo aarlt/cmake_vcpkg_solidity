@@ -47,7 +47,7 @@ contract C {
 	solidity::frontend::StandardCompiler compiler;
 	std::string output = compiler.compile(input);
 
-	Json::Value outputJson;
+  solidity::Json outputJson;
 	solidity::util::jsonParseStrict(output, outputJson);
 	std::cout << solidity::util::jsonPrettyPrint(outputJson) << std::endl;
 
